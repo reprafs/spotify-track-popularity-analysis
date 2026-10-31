@@ -12,7 +12,7 @@ Why are some songs more popular than others? Is it the artist, the genre, the so
 
 ## Dataset
 
-- **Source:** [Add dataset link here]
+- **Source:** https://www.kaggle.com/code/marawanmohsen1/spotify?select=track_data_final.csv
 - **Size:** 8,700+ tracks
 - **Main columns:** `track_name`, `track_popularity`, `track_duration_ms`, `explicit`, `artist_name`, `artist_popularity`, `artist_followers`, `artist_genres`, `album_release_date`, `album_total_tracks`
 
