@@ -32,7 +32,7 @@ Why are some songs more popular than others? Is it the artist, the genre, the so
 
 ![Correlation Heatmap](images/foto1.png)
 
-[Write your finding here]
+Meskipun korelasi  popularitas artis sangat erat kaitannya dengan jumlah *followers*-nya (0.94), popularitas sebuah lagu ternyata sama sekali tidak ditentukan oleh durasi, posisi urutan lagu, maupun ukuran album, di mana nama besar artis (0.46) serta konten eksplisit (0.20) hanya memberikan dorongan moderat tanpa menjamin seluruh karya mereka otomatis menjadi hits.
 
 ## 2. How is track popularity spread across the dataset? Are most tracks low, medium, or high?
 
