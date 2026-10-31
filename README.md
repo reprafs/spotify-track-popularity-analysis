@@ -38,42 +38,30 @@ Meskipun korelasi  popularitas artis sangat erat kaitannya dengan jumlah *follow
 
 ![Popularity Distribution](images/foto2.png)
 
-[Write your finding here]
+Dari grafik kelihatan kalau sebaran popularitas lagunya agak timpang karena numpuk banget di angka 0 (sampai 300 lagu lebih), yang kemungkinan besar itu lagu-lagu baru atau yang emang sepi pendengar. Tapi buat lagu-lagu yang lain, sebarannya lumayan nyebar di kisaran nilai 40 sampai 80. Makanya nilai tengah (median) ada di 56.0, sedikit lebih tinggi dari rata-rata (mean) yang di angka 51.5, karena rata-ratanya ketarik turun sama lagu-lagu ber-skor nol tadi.
 
 ## 3. Which genre has the highest average popularity, and is the biggest genre also the most popular?
 
 ![Genre Popularity](images/foto3.png)
 
-[Write your finding here]
+Dari grafik rata-rata popularitas genre, kelompok genre yang berbau latin (reggaeton, trap latino, urbano latino, latin), k-pop, dan rap menduduki posisi teratas dengan skor popularitas rata-rata paling tinggi. Di sisi lain, meskipun genre pop dan soundtrack punya jumlah lagu yang sangat banyak (terlihat dari warna batang yang paling gelap), rata-rata popularitas mereka justru berada di bawah genre latin atau rap.
 
 ## 4. Do popular artists always make popular tracks, and do artists with many followers show a different pattern?
 
 ![Artist vs Track Popularity](images/foto4.png)
 
-[Write your finding here]
+Dari grafik rata-rata popularitas genre, kelompok genre yang berbau latin (reggaeton, trap latino, urbano latino, latin), k-pop, dan rap menduduki posisi teratas dengan skor popularitas rata-rata paling tinggi. Di sisi lain, meskipun genre pop dan soundtrack punya jumlah lagu yang sangat banyak (terlihat dari warna batang yang paling gelap), rata-rata popularitas mereka justru berada di bawah genre latin atau rap.
 
 ## 5. How do the number of releases and average popularity change over the years?
 
 ![Popularity Trend](images/foto5.png)
 
-[Write your finding here]
+Meskipun jumlah rilis lagu melonjak drastis hingga di atas 300 lagu per tahun dalam satu dekade terakhir, rata-rata popularitas lagu (di kisaran 45–55) dan artis (di kisaran 65–75) justru cenderung stagnan dan tidak ikut naik.
 
 ## Conclusion
 
-- [Key point 1]
-- [Key point 2]
-- [Key point 3]
 
-## How to Run
-
-1. Open the notebook in Google Colab.
-2. Upload the dataset file to Colab.
-3. Run the cells from top to bottom.
-
-## Files
-
-```
-├── spotify_analysis.ipynb   # full steps: cleaning and visualization
-├── images/                  # chart screenshots
-└── README.md
-```
+- *Artist fame helps, but it is not a guarantee.* Artist popularity has a moderate link with track popularity (0.46). Popular artists can still have tracks that few people listen to.
+- *Song features matter little.* Duration, track number, and album size have almost no relation to popularity. Explicit songs get only a small boost (0.20).
+- *Genre makes a difference.* Latin genres, K-pop, and rap have the highest average popularity. Pop and soundtrack have the most songs, but their average popularity is lower.
+- *More songs does not mean more popular.* Releases grew a lot in the last decade, but average popularity stayed flat.
